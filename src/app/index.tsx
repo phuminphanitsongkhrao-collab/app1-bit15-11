@@ -8,7 +8,7 @@ export default function App(){
         <View style={myStyle.container}>
 
          <Text style={myStyle.title}>the best music</Text>
-        // รูปภาพเเบบเอามาใส่
+        // รูปภาพเเบบเอามาจากลิงค์
          <Image 
          source={{uri:"https://static.robloxden.com/robloxden-strapi/xsmall_robloxden_generated_180_DAY_32919ae22a3cc70b827582630d9a694b_34a37f3a8f.png"}} 
          style ={{
@@ -19,7 +19,7 @@ export default function App(){
          borderColor: "red" // สีของขอบ
 }}
 />
-       // รูปภาพเเบบเอามาจากลิงค์
+       // รูปภาพเเบบเอามาใส่
         <Image 
          source={require('@/assets/images/fizz.webp')} 
          style ={{
