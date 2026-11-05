@@ -10,7 +10,7 @@ export default function App(){
          <Text style={myStyle.title}>the best music</Text>
         // รูปภาพเเบบเอามาใส่
          <Image 
-         source={require('@/assets/images/fizz.webp')} 
+         source={{uri:"https://static.robloxden.com/robloxden-strapi/xsmall_robloxden_generated_180_DAY_32919ae22a3cc70b827582630d9a694b_34a37f3a8f.png"}} 
          style ={{
          width: 200, // กว้าง
          height: 200, // สูง
@@ -21,13 +21,14 @@ export default function App(){
 />
        // รูปภาพเเบบเอามาจากลิงค์
         <Image 
-         source={{uri:"https://static.robloxden.com/robloxden-strapi/xsmall_robloxden_generated_180_DAY_32919ae22a3cc70b827582630d9a694b_34a37f3a8f.png"}} 
+         source={require('@/assets/images/fizz.webp')} 
          style ={{
          width: 200, // กว้าง
          height: 200, // สูง
          borderRadius: 100, // ความโค้งของมุม
          borderWidth: 10, // ความกว้างของขอบ
          borderColor: "red" // สีของขอบ
+       
 }}
 />
 // ข้อความย่อย
